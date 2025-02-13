@@ -1,0 +1,65 @@
+.container {
+    padding: 20px;
+    background-color: #2d2d2d; /* Dark theme */
+    color: #fff;
+  }
+  
+  .featured-event {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: #3e3e3e;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .featured-event .left h1 {
+    font-size: 2rem;
+  }
+  
+  .featured-event .right img {
+    width: 200px;
+    border-radius: 8px;
+  }
+  
+  .events-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+  
+  .event-card {
+    background-color: #fbe2e5; /* Light pink background */
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+    min-width: 200px;
+  }
+  
+  .price-tag {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .details-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  
+  .event-details {
+    margin-top: 10px;
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
